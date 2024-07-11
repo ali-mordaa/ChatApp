@@ -12,7 +12,7 @@ class ChatPage extends StatelessWidget {
       FirebaseFirestore.instance.collection('masseges');
   late TextEditingController controlle = TextEditingController();
   final ScrollController controller = ScrollController();
-
+// commit from abdo
   @override
   Widget build(BuildContext context) {
     String email = ModalRoute.of(context)!.settings.arguments as String;
